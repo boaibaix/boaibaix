@@ -45,22 +45,22 @@ ruleset=漏网之鱼,[]FINAL
 
 ;设置分组标志位
 custom_proxy_group=国外流量`select`[]自动选择`[]故障转移`[]负载均衡`[]手动选择`[]手动选择备用
-custom_proxy_group=手动选择`select`.*
+custom_proxy_group=手动选择`select`[]HK`[]TW`[]SG`[]JP`[]US`[]KR
 custom_proxy_group=手动选择备用`select`.*
 custom_proxy_group=IP归属地`select`[]国内流量`[]手动选择`[]手动选择备用
 custom_proxy_group=HK`select`(🇭🇰|香港|HK|Hong)
 custom_proxy_group=TW`select`(🇨🇳|台湾|TW|Taiwan)
-custom_proxy_group=JP`select`(🇯🇵|日本|JP|Japan)
 custom_proxy_group=SG`select`(🇸🇬|新加坡|狮|獅|SG|Singapore)
+custom_proxy_group=JP`select`(🇯🇵|日本|JP|Japan)
 custom_proxy_group=US`select`(🇺🇸|美国|US|USA|States|American)
 custom_proxy_group=KR`select`(🇰🇷|韩国|韓|朝|KR|Korea)
-custom_proxy_group=Bilibili`select`[]国内流量`(🇭🇰|香港|HK|Hong)`(🇨🇳|台湾|TW|Taiwan)
+custom_proxy_group=Bilibili`select`[]国内流量`[]HK`[]TW
 custom_proxy_group=游戏平台`select`[]国内流量`(游戏|Game|GAME)
 custom_proxy_group=国外媒体`select`[]国外流量`[]手动选择
 custom_proxy_group=漏网之鱼`select`[]国外流量`[]国内流量`[]手动选择
 custom_proxy_group=国内流量`select`[]DIRECT`[]手动选择
 custom_proxy_group=国内媒体`select`[]国内流量`[]手动选择
-custom_proxy_group=Spotify`select`[]国内流量`[]国外流量`[]手动选择
+custom_proxy_group=Spotify`select`[]国内流量`[]国外流量`[]手动选择`[]手动选择备用
 custom_proxy_group=谷歌FCM`select`[]国内流量`[]国外流量`[]手动选择
 custom_proxy_group=微软云盘`select`[]国内流量`[]国外流量`[]手动选择
 custom_proxy_group=微软服务`select`[]国内流量`[]国外流量`[]手动选择
