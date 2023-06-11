@@ -17,11 +17,24 @@ HOST-SUFFIX,weibo.com,Weibo
 HOST-SUFFIX,weibocdn.com,Weibo
 HOST-KEYWORD,weibo,Weibo
 
-
 #XiaoHongShu
 HOST-SUFFIX,fengkongcloud.com,XiaoHongShu
 HOST-SUFFIX,xhscdn.com,XiaoHongShu
 HOST-SUFFIX,xiaohongshu.com,XiaoHongShu
+
+#Douban
+HOST-SUFFIX,douban.com,DouBan
+HOST-SUFFIX,douban.fm,DouBan
+HOST-SUFFIX,doubanio.com,DouBan
+
+#Zhihu
+HOST-SUFFIX,zhihu.com,Zhihu
+HOST-SUFFIX,zhimg.com,Zhihu
+IP-CIDR,103.41.167.226/32,Zhihu
+IP-CIDR,103.41.167.234/31,Zhihu
+IP-CIDR,103.41.167.236/32,Zhihu
+IP-CIDR,118.89.204.198/32,Zhihu
+IP6-CIDR,2402:4e00:1200:ed00:0:9089:6dac:96b6/128,Zhihu
 
 
 
