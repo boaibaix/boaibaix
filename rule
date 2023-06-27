@@ -10,8 +10,8 @@
 #HOST-SUFFIX,pstatp.com,DouYin
 #HOST-SUFFIX,snssdk.com,DouYin
 #HOST-SUFFIX,toutiao.com,DouYin
-HOST-SUFFIX,sso.douyin.com,DouYin
-HOST-SUFFIX,www.douyin.com,DouYin
+DOMAIN,sso.douyin.com,IP
+DOMAIN,www.douyin.com,IP
 
 #Weibo
 HOST-SUFFIX,weibo.cn,Weibo
