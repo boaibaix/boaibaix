@@ -33,13 +33,13 @@ custom_proxy_group=SG`select`(新加坡|狮|獅|SG|Singapore)
 custom_proxy_group=JP`select`(日本|JP|Japan)
 custom_proxy_group=US`select`(美国|US|USA|States|American)
 custom_proxy_group=KR`select`(韩国|韓|KR|Korea)
-custom_proxy_group=IP`select`[]国内流量`select`(^(?!.*(香港|HK|Hong|台湾|TW|Taiwan|新加坡|狮|獅|SG|Singapore|日本|JP|Japan|美国|US|USA|States|American|韩国|韓|KR|Korea)).*)
-custom_proxy_group=Bilibili`select`[]国内流量`[]HK`[]TW`[]QT
-custom_proxy_group=Game`select`[]国内流量`[]Z`[]F`(游戏|Game|GAME)
-custom_proxy_group=Final`select`[]Z`[]F`[]国内流量
-custom_proxy_group=Apple`select`[]国内流量`[]Z`[]F
+custom_proxy_group=IP`select`[]China`select`(^(?!.*(香港|HK|Hong|台湾|TW|Taiwan|新加坡|狮|獅|SG|Singapore|日本|JP|Japan|美国|US|USA|States|American|韩国|韓|KR|Korea)).*)
+custom_proxy_group=Bilibili`select`[]China`[]HK`[]TW`[]QT
+custom_proxy_group=Game`select`[]China`[]Z`[]F`(游戏|Game|GAME)
+custom_proxy_group=Final`select`[]Z`[]F`[]China
+custom_proxy_group=Apple`select`[]China`[]Z`[]F
 custom_proxy_group=China`select`[]DIRECT`[]Z`[]F
-custom_proxy_group=Advertising`select`[]REJECT`[]国内流量
+custom_proxy_group=Advertising`select`[]REJECT`[]China
 ;设置分组标志位
 
 enable_rule_generator=true
